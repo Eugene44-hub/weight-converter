@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(226, 215, 215);
+}
+
+input {
+    padding: 10px;
+    flex: 50%;
+    outline: none;
+    border: none;
+    box-s
+}
+
+h1 {
+    text-align: center;
+    flex: 100%;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 10px;
+}
+
+.converter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+select,
+input {
+    margin: 10px;
+}
